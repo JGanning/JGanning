@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Swamp</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+		crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="img/Logo.png">
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="smoothscroll.js"></script>
+		<script src="details.js"></script>
+	</head>
+
+	<body>
+		<div class='sidebar'>
+			<div class="icon">
+				<a href="top" id="link0"><img src="img/Logo.png"></a>
+			</div>
+			<div class="navbar">
+				<ul>
+					<a href="top" id="link1"><li>Home</li></a>
+					<a href="top" id="link2"><li>About Me</li></a>
+					<a href="top" id="link3"><li>Skills</li></a>
+					<a href="top" id="link4"><li>Projects</li></a>
+					<a href="top" id="link5"><li>Misc</li></a>
+					<a href="top" id="link6"><li>Goals</li></a>
+				</ul>
+			</div>
+	  
+			<div class="contact">
+				<h3>Contact</h3>
+				<ul>
+				  <li>973-647-5093</li>
+				  <li>Joseph.ganning@gmail.com</li>
+				  <li>550 Sussex Ave, Morristown, NJ</li>
+				</ul>
+				<div class="flex">
+					<div  id="ficons">
+						<a href="https://www.linkedin.com/in/joseph-ganning-078b4b166/"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div  id="ficons">
+						<a href="https://github.com/JGanning"><i class="fa fa-github"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header">
+			<div class="top" id="top">
+				<h1>Welcome to my Swamp!</h1>
+			</div>
+		</div>
+		
+		<div class="about">
+			<div id="aboutMe">
+				<img src="img/shrek.PNG">
+				<div id="name">Joseph Ganning</div>
+			  <div id="resume"><a href="img/Resume.pdf">Download Resume</a></div>
+			  <div class="bio">
+				  <p>Graduate of Montclair State University with a degree in Computer Science.</p>
+				  <p>Seeking a position that will enable me to expand my knowledge and computers skills</p>
+				  <p>and gain experience in other technical areas.</p>
+			  </div>
+			  <div class="education"><h3>Education<button class="eShowDetails">Show Details</button>
+		  <button class="eHideDetails">Hide Details</button></h3></div>
+			  
+				<div id="education">
+					<div class="box-resume" id="ed">
+					  <p>Montclair State University - Montclair, NJ</p>   
+					  <p>Bachelor of Science in Computer Science</p>
+					  <p id="details">3.0 GPA</p>              	  	
+					  <p id="details">Graduated: May 2018<p>
+					</div>
+				  </div>
+			  
+			  <div class="experience"><h3>Work<button class="wShowDetails">Show Details</button>
+		  <button class="wHideDetails">Hide Details</button></h3></div>
+			  <div class="box-resume" id="work">
+					<p>RE/MAX Select - Morristown, NJ</p>
+					<p>Administrative Assistant: January 2018 - April 2018</p>
+					<div id="details">
+						<p>Assist real estate agents with computer and technical issues</p>
+						<p>Create and distribute advertisements for the agents</p>
+						<p>Ensure that paperwork is properly completed for real estate transactions</p>
+					</div>
+					<br>
+					<p>Springbrook Country Club - Morristown, NJ</p>
+					<p>Caddy: May 2012 - Present</p>
+					<div id="details">
+						<p>Forest Hill Field Club - Belleville, NJ</p>
+						<p>Caddy: May 2015 - Present</p>
+						<p>Carry golf clubs and cater to golfer’s needs on the course</p>
+						<p>Train new golf caddy hires</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		  <div class="skills" id="skills">
+			<h1>Skills</h1>
+			<div class="devicon">
+			  <i class="devicon-java-plain-wordmark"></i>
+			  <i class="devicon-python-plain"></i>      
+			</div>
+			<div class="devicon">
+			  <i class="devicon-html5-plain-wordmark"></i>
+			  <i class="devicon-javascript-plain"></i>
+			  <i class="devicon-css3-plain-wordmark"></i>
+			</div>
+			<div class="devicon">
+				<i class="devicon-php-plain"></i>
+				<i class="devicon-mysql-plain-wordmark"></i>
+			</div>
+			<div class="devicon"><i class="devicon-angularjs-plain"></i></div>
+		  </div>
+
+	<div id="projects" class="projects">
+		<h1>Projects</h1>
+		
+		<div id="title"><a href="https://github.com/JGanning/Indie-Music-Extension"><img src="img/Logo.png">Music Player Extension</a>
+		  <button class="mShowDetails">Show Details</button>
+		  <button class="mHideDetails">Hide Details</button>
+		</div>
+		
+		<div id="description" class="mDescription">
+		  <p>Description:</p>
+		  <p>Chrome extension meant to play music submitted by new artists looking for another way to advertise their work</p>
+		  <p>My Role:</p>
+		  <p>Design a popup in HTML and CSS, made the UI interactive with JavaScript. Ended up adding a link to a new page to allow the player to run continuously. Currently using my own music until I get submissions to replace them.</p>
+		</div>
+		
+		<div id="title"><a href="https://github.com/JGanning/Bot_Jingleheimer"><img src="img/Logo.png">Bot Jingleheimer</a>
+		  <button class="bShowDetails">Show Details</button>
+		  <button class="bHideDetails">Hide Details</button>
+		</div>
+		
+		<div id="description" class="bDescription">
+		  <p>Description </p>
+		  <p>Chatbot written in Python to interact with stream viewers for a Montclair State Charity event</p>
+		  <p>My Role:</p>
+		  <p>Gave the bot a new account on twitch.tv, connected the bot to the twitch irc and gave the bot commands and functionality.</p>
+		</div>
+		
+		<div id="title"><a href="https://github.com/JGanning/KoisRUs"><img src="img/KRU.png">Kois R Us</a>
+		  <button class="kShowDetails">Show Details</button>
+		  <button class="kHideDetails">Hide Details</button>
+		</div>
+		
+		<div id="description" class="kDescription">
+		  <p>Description:</p>
+		  <p>Online store for my Databases class using PHP and SQL</p>
+		  <p>My Role:</p>
+		  <p>Used Montclair State's PHPMyAdmin server to use as a database. Used PHP and SQL to interact with the database. This included login pages, registration pages, deleting products and users, updating products, and creating a cart to make transactions.</p>
+		</div>
+
+		<div id="title"><a href="https://github.com/JGanning/PO-Security"><img src="img/PO.png">Protection Optimization Security</a>
+		  <button class="pShowDetails">Show Details</button>
+		  <button class="pHideDetails">Hide Details</button>
+		</div>
+		
+		<div id="description" class="pDescription">
+		  <p>Description:</p>
+		  <p>Basic security software with four clearance levels using Java</p>
+		  <p>My Role:</p>
+		  <p>Wrote Test Plan, Control Flow Graph, Detailed Design Document, and the User Manual as well as the Login UI, View Users and View Blocked Users pages</p>
+		</div>
+	  </div>
+	  
+	  <div class="misc" id="misc">
+  <div class="title"><h1>Additional Information</h1></div>
+  <div class="hobbies">
+    <h2>Hobbies</h2>
+    <p id="head">Music:</p>
+    <p>I believe I have one of the most unusual tastes in music. The music I listen to ranges from Metal to various forms of house music to Irish music. I used play the drums and make covers in my basement to many different songs, and now prefer to just listen and sometimes try to learn piano.</p>
+    
+    <p id="head">Video Games:</p>
+    <p>I enjoy playing video games competitively in some way. Recently I have been speedrunning single player games to beat them as quickly as possible. I also spend time experimenting with game development using Unity. I have taken a break to improve my over all programming skills and will go back once I am satisfied with the languages I am currently learning.</p>
+
+    <p id="head">Golf:</p>
+    <p>I rarely play golf myself, but I enjoy it when I do. I find golf to be a very interesting game because there is so much down time, but to be good at the game it takes a lot of mental energy. It also gives me a good opportunity to find new places to travel to.</p>
+  </div>
+  <div class="travel">
+    <h2>Travel</h2>
+    <p id="head">Traveled to Ireland, Scotland, London, Colorado, Hawaii, Arizona and many other locations</p>
+    <p id="head">My favorite locations to travel to tend to be areas with mountains. This is mostly because of the scenery, but it may also have to do with the fact that I don't really enjoy the beach. However I still enjoy tropical areas.</p>
+  </div>
+</div>
+
+<div class="goals" id="goals">
+  <div class="title"><h1>Goals</h1></div>
+  <div id="long-term">
+    <h2>Long-term</h2>
+    <p>My main goal is to end up in Silicon Valley as a software engineer. I currently spend most of my time studying and applying for jobs hoping to eventually reach this goal.</p>
+  </div>
+
+  <div id="short-term">
+      <h2>Short-term</h2>
+      <p id="head">I am currently working on a satire news website that will be run by friends of mine. They will upload articles and comics of their choice and users will be able to make accounts to receive newsletters and choose favorite articles.</p>
+      <p id="head">A relatively new goal of mine is to become an indie game developer. I have a few ideas that I would like to follow through with some day.</p>
+    </div>
+</div>
+	</body>
+</html>
